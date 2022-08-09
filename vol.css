@@ -1,0 +1,44 @@
+.grid-v{
+    display: grid;
+}
+body{
+    background-color: rgb(233, 233, 233);
+}
+
+h1{
+    margin: 30px 30px 10px 30px;
+    font-weight: bolder;
+    
+   
+}
+hr{
+    float: left;
+    width: 10%;
+   
+    margin-left: 32px;
+}
+.card{
+    margin: 50px;
+    width: 90%;
+    text-align: center;
+    background-color: aliceblue;
+    border: 1px solid gray;
+}
+.imgcard{
+    width: 40%;
+
+}
+
+img{
+    width: 150px;
+    float: left;
+    padding-left: 50px;
+}
+.name1{
+    float: right;
+    
+}
+.ss{
+    margin: 150px;
+    text-align: center;
+}

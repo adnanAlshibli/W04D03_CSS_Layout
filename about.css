@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.grid{
+    display: grid;
+    justify-content: center;
+}
+.about{
+    justify-self: center;
+    text-align: center;
+
+}
+.tittle{
+    font-size: 35px;
+    margin: 30px;
+    font-weight: bold;
+}
+p{max-width: 700px;
+font-weight: bold;}
+
+.cards{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.card1{
+    width: 20%;
+    flex-direction: row;
+    border: 1px solid grey;
+    margin:30px;
+    border-top: 2.5px solid chocolate;
+    padding: 10px
+    
+}
+.card1 h1{
+    text-shadow: 1px 1px 8px grey;
+    font-size: 30px;
+}
+.card1 svg{
+    width: 50px;
+    height: 50px;
+    padding: 3px;
+    border-bottom: 3px solid chocolate;
+}
+.card1 p{
+    font-size: 12px;
+    line-height: 35px;
+}
