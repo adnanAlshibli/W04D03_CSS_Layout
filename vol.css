@@ -26,6 +26,8 @@ hr{
 }
 .imgcard{
     width: 40%;
+    height: 150px;
+    display: inline-block;
 
 }
 
@@ -39,6 +41,9 @@ img{
     
 }
 .ss{
-    margin: 150px;
-    text-align: center;
+   text-align: center;
+}
+.textCard{
+    width: 40%;
+    float: right;
 }
